@@ -1,6 +1,6 @@
 {
-	"theme_color": "#E30B13",
-	"background_color": "#191B1F",
+	"theme_color": "#722ed1",
+	"background_color": "#eee",
 	"scope": "/",
 	"start_url": "/",
 	"name": "Portfolio Chukrii",
@@ -8,12 +8,17 @@
 	"description": "Portfolio site",
 	"icons": [
 		{
-			"src": "/favicons/apple-touch-icon-76x76.png",
+			"src": "/favicons/apple-icon-72x72.png",
+			"sizes": "72x72",
+			"type": "image/png"
+		},
+		{
+			"src": "/favicons/apple-icon-76x76.png",
 			"sizes": "76x76",
 			"type": "image/png"
 		},
 		{
-			"src": "/favicons/apple-touch-icon-114x114.png",
+			"src": "/favicons/apple-icon-114x114.png",
 			"sizes": "114x114",
 			"type": "image/png"
 		}
