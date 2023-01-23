@@ -1,7 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import 'variables.scss';
+@import './variables.scss';
 
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap');
 
@@ -21,9 +21,9 @@ a {
 	box-sizing: border-box;
 }
 
-:root {
-	--primary-color: #e30b13;
-}
+// :root {
+// 	--primary-color: #e30b13;
+// }
 
 input[type='file'],
 input[type='file']::-webkit-file-upload-button {

@@ -1,0 +1,39 @@
+@import '../../../assets/styles/variables';
+
+#header {
+	@apply pt-[24px];
+
+	.inner_header {
+		@apply flex-center-between;
+		.logo {
+			@apply block w-[48px] h-[48px];
+			img {
+				@apply w-full;
+			}
+		}
+		.right_side_header {
+			@apply flex-center-between;
+			> .mnu_top {
+				@apply flex-center-between;
+				> li {
+					@apply inline-block mr-[40px];
+					> a {
+						@apply block text-base;
+						&:hover {
+							color: $accent;
+						}
+					}
+				}
+			}
+			> .btn_simple {
+				@apply block py-[6px] px-[30px] rounded-full border;
+				color: $accent;
+				&:hover {
+					background-color: $accent;
+					border-color: $accent;
+					color: white;
+				}
+			}
+		}
+	}
+}
